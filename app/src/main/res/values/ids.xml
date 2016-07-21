@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- TODO: enter keys here -->
+    <string name="YOUR_APPLICATION_ID">APPLICATION_ID</string>
+    <string name="YOUR_ANDROID_SECRET_KEY">ANDROID_SECRET_KEY</string>
+
+</resources>

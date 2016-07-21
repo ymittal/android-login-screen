@@ -25,4 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
 
     compile 'com.android.support:design:23.4.0'
+    compile 'com.backendless:backendless:3.0.17.1'
 }

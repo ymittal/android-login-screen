@@ -13,4 +13,15 @@
     <string name="hint_et_name">Name</string>
     <string name="label_register_activity">Registration</string>
     <string name="label_restore_activity">Restore Password</string>
+
+    <string name="fb_login_success">Login with Facebook successful!</string>
+    <string name="login_fail">Login failed</string>
+    <string name="google_login_success">Login with Google successful!</string>
+    <string name="email_login_success">Login successful!</string>
+    <string name="register_success">Registration done!</string>
+    <string name="register_fail">Registration failed</string>
+    <string name="error_email">Enter a valid email</string>
+    <string name="error_pass">Enter a password</string>
+    <string name="restore_email_sent">Please check your email for an account restoration link.</string>
+    <string name="restore_email_fail">Restore email was not sent</string>
 </resources>
