@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="@dimen/padding_sides">
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_et_email"
+                android:inputType="textEmailAddress"
+                android:textSize="@dimen/text_medium" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_et_pass"
+                android:inputType="textPassword"
+                android:textSize="@dimen/text_medium" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/checkboxRemember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/checkbox_remember"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/my_button"
+            android:text="@string/btn_login"
+            android:textSize="@dimen/text_medium" />
+
+        <TextView
+            android:id="@+id/tvRestore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:linksClickable="false"
+            android:text="@string/tv_restore"
+            android:textSize="@dimen/text_small"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:layout_marginTop="28dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#3b5998"
+            android:text="@string/btn_facebook" />
+
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dd4b39"
+            android:text="@string/btn_google" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:gravity="bottom"
+        android:text="@string/tv_register"
+        android:textSize="@dimen/text_small"
+        android:textStyle="bold" />
+
+</RelativeLayout>

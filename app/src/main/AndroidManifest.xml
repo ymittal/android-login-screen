@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ymittal.backendlesslogin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/LoginTheme">
+        <activity android:name=".login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.RegisterActivity"
+            android:label="@string/label_register_activity" />
+        <activity
+            android:name=".login.RestorePasswordActivity"
+            android:label="@string/label_restore_activity" />
+    </application>
+
+</manifest>
